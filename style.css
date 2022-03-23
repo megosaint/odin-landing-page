@@ -76,3 +76,36 @@ button {
 .header-main-text p {
     margin: 5px 0px;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 300px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.main-content-img {
+    width: 100px;
+    height: 100px;
+    border: #3882f6 solid;
+    border-radius: 10px;
+}
+
+.main-content {
+    width: 100px;
+    margin: 5px 40px;
+}
